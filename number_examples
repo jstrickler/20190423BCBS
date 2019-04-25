@@ -1,0 +1,75 @@
+#!/usr/bin/env python
+
+i1 = 100
+i2 = 0b100
+i3 = 0x100
+i4 = 0o100
+
+print(i1, i2, i3, i4)
+
+f1 = 123.456
+f2 = 123.
+f3 = .456
+f4 = 123.0
+f5 = 1.0293e5
+
+print(f1, f2, f3, f4, f5)
+
+a = 29
+b = 13
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)  # floored division
+print(a ** b)  # exponentiation
+print(a % b)   # remainder (modulus)
+print(divmod(a, b))
+
+x = 10
+x += 5  # x = x + 5
+x *= 2  # x = x * 2  
+x /= 3  # etc etc
+print(x)
+
+# NOT IMPLEMENTED:
+#  x++ x--
+
+a = 39.7
+
+b = int(a)
+
+print(a, b)
+
+print(int(True), int(False), int(123), int(1.2))
+
+a = "123"
+print(int(a) * 10)
+
+a = "DeadBeef"
+print(int(a, 16))
+
+x = 134
+
+y = str(x)
+
+print(x, y, repr(y), repr(x))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

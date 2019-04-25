@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+
+actor = "Chris Hemsworth"
+
+value = 1.239029304497
+
+color = "red"
+
+print(actor, value, repr(color), color)
+
+
+print(actor, value, repr(color), color, sep='\U0001F414')
+
+print(actor)
+print(value)
+print(color)
+
+print(actor, end='\U0001F95A')
+print(value, end='\U0001F95A')
+print(color)
+
+print(value)
+print("value is {}".format(value))
+
+print("{} is {} in the face".format(actor, color))
+
+print("value is {:.2f}".format(value))
+
+big_number = 29302983059820398520935
+print("Big number: {:,d}".format(big_number))
+
+
+print(f"value is {value:.2f}")
+print(f"{actor} is {color} in the face")
+
+
+
+
+
+
+
+
+
+
+
+
+

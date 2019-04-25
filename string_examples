@@ -1,0 +1,103 @@
+#!/usr/bin/env python
+
+s1 = "spam\n"
+s2 = 'spam\n'
+s3 = """spam\n"""
+s4 = '''spam\n'''
+s5 = r"spam\n"
+
+print("Guido's the founder")
+print('The "founder" is Guido')
+
+print("""Guido's the "founder" of Python""")
+
+
+print(s1)
+print(s1)
+print(s1)
+print(s5)
+
+actor = "Chris Hemsworth"
+
+print(actor.upper())
+a = actor.upper()
+
+print(actor.count('h'))
+print(actor.count('H'))
+print(actor.lower().count('h'))
+
+print(type(actor), len(actor))
+
+print(actor.startswith('Chris'))
+print(actor.startswith('Liam'))
+
+print("Hem" in actor)
+print("Haw" in actor)
+
+print(actor.find("worth"))
+print(actor.index("worth"))
+
+#print(actor.find("spam"))
+#print(actor.index("spam"))
+
+s = "          BC BS NC            "
+
+print('|' + s.lstrip() + '|')
+print('|' + s.rstrip() + '|')
+print('|' + s.strip() + '|')
+print()
+
+
+s = "RXYYXXXYRRYXRBCXBSYNCXXYYRRYXRRRYYXX"
+
+print('|' + s.lstrip('RXY') + '|')
+print('|' + s.rstrip('RXY') + '|')
+print('|' + s.strip('RXY') + '|')
+print()
+
+s = "Apex Cary Fuquay-Varina"
+
+cities = s.split()
+
+print(cities)
+
+s = "Apex:Cary:Fuquay-Varina:Chapel Hill"
+
+cities = s.split(':')
+
+print(cities)
+
+print(s.replace(':', '|'))
+
+print('|'.join(cities))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
